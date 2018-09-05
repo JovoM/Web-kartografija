@@ -1,0 +1,131 @@
+html, body {
+	height:  100%;
+	width:  100%;
+}
+html {
+background-color: white; //biranje boje za pozadinu
+}
+h1.double {border-style: double;}
+h1 
+{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	background-color:gray;
+	color: #CD853F;
+	margin: 0;
+	padding: 5px;
+	border-bottom: groove #CD853F;
+	border-top: groove #CD853F;
+	}
+#export-png{
+	font-family: "Times New Roman", Times, serif;
+	border-style: groove;
+	position: absolute;
+	z-index: 2;
+	background-color: #CD853F;
+	color: #fff;
+	padding: 5px 12px;
+	font-size: 14px;
+	right: 1px;
+	top: 700px;
+}
+#layers {
+	font-family: "Times New Roman", Times, serif;
+	border-style: inset;
+	position: absolute;
+	z-index: 2;
+	background-color: #CD853F;
+	color: #fff;
+	padding: 5px 12px;
+	font-size: 14px;
+	left: 40px;
+	top: 60px;
+}
+#layers1{
+	font-family: "Times New Roman", Times, serif;
+	border-style: groove;
+	position: absolute;
+	z-index: 2;
+	background-color: #CD853F;
+	color: #fff;
+	padding: 5px 12px;
+	font= 20px;
+	left: 45px;
+	top: 65px;
+}
+.map {
+	height:  100%;
+	width:  100%;
+}
+ #forma{
+	 background-color: #CD853F;
+	  position:absolute;
+	  top:55px;
+	  float:left;
+	  border-style: groove;
+	  font= 20px;
+	  right: 1px;
+	
+	  }
+#projection
+{font-family: "Times New Roman", Times, serif;
+	border-style: inset;
+	position: absolute;
+	z-index: 3;
+	background-color: #CD853F;
+	color: #fff;
+	padding: 15px 12px;
+	font-size: 14px;
+	right: 10px;
+	top: 250px;
+}
+.precision
+{
+	border-style: inset;
+	position: absolute;
+	z-index: 3;
+	background-color: #CD853F;
+	color: #fff;
+	padding: 15px 12px;
+	font-size: 14px;
+	right: 10px;
+	top: 150px;
+}
+#Leyers1{
+	position: absolute;
+	color: white;
+	background-color: #CD853F;
+	z-index: 2;
+	right: 1px;
+	top: 50px;
+	font-size: 20px;
+	  }
+#lejeri{
+	
+	  position: absolute;
+	  float:left;
+	border-style: inset;
+	top: 70px
+	  }
+#layertree{
+	  position: absolute;
+	  float:left;
+	  top: 55px;
+	  border-style: inset;
+	  background-color: #CD853F;
+	  font-size: 20px;
+	  left:50px;
+	  }
+#prozor {
+	z-index: 1000;
+	background-color: white;
+	position: fixed;
+	border: 1px solid black;
+	text-align: center;
+	
+}
+
+#tabela {
+	margin: 10px;
+}
